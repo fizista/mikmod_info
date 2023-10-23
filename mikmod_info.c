@@ -39,10 +39,7 @@ int main(int argc, char **argv)
 	if (module) {
 		Player_Start(module);
 		MikMod_Update();
-		if (module->comment)
-			printf("%s}-{%s}-{%s}-{%d\n", module->songname, module->modtype, module->comment , (int) module->numchn);
-		else
-			printf("%s}-{%s}-{%s}-{%d\n", module->songname, module->modtype, "", (int) module->numchn);
+		printf("%s}-{%s}-{%d\n", module->songname, module->modtype, (int) module->numchn);
 		Player_Stop();
 		Player_Free(module);
 		MikMod_Exit();
