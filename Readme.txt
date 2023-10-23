@@ -14,7 +14,7 @@ make install
 
 or
 
-checkinstall --install=no --fstrans=yes --requires libmikmod3 --pkgname mikmod-info --pkgversion 0.1 --pkgrelease 1 --pkglicense MIT --maintainer fizista+mikmod@gmail.com --nodoc
+make deb
 apt install mikmod-info_0.1-1_amd64.deb
 
 How to use:

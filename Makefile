@@ -25,7 +25,7 @@ all: $(OBJS)
 	$(CC) $(CFLAGS) -c $<
 
 clean:
-	rm -f *.o $(PROG)
+	rm -f *.o *.deb $(PROG)
 
 install:
 	install -d $(DESTDIR)$(PREFIX)/bin/
