@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 	MODULE *module;
 
 	if (argc < 2) {
-		fprintf(stderr, "Usage: ./splay file\n");
+		fprintf(stderr, "Usage: ./mikmod_info file\n");
 		return 1;
 	}
 
