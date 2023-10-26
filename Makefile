@@ -29,7 +29,7 @@ clean:
 
 install:
 	install -d $(DESTDIR)$(PREFIX)/bin/
-	install -m 655 $(PROG) $(DESTDIR)$(PREFIX)/bin/
+	install -m 755 $(PROG) $(DESTDIR)$(PREFIX)/bin/
 
 uninstall:
 	rm $(DESTDIR)$(PREFIX)/bin/$(PROG)
